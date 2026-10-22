@@ -1,0 +1,17 @@
+# Keys and credentials: never commit these
+*.pem
+*.ppk
+credentials
+.env
+.aws/
+
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Generated archives
+*.zip
+
+# Node.js
+node_modules/
