@@ -13,23 +13,23 @@
 
 ### Security group
 
-![Security group inbound rules](lab1/images/01-security-group.png)
+![Security group inbound rules](images/01-security-group.png)
 
 ### Key pair
 
-![Key pair](lab1/images/02-key-pair.png)
+![Key pair](images/02-key-pair.png)
 
 ### Instance details
 
-![Instance details](lab1/images/03-instance-details.png)
+![Instance details](images/03-instance-details.png)
 
 ### Browser test
 
-![Browser test](lab1/images/04-browser-test.png)
+![Browser test](images/04-browser-test.png)
 
 ### SSH connection
 
-![SSH connection](lab1/images/05-ssh-connection.png)
+![SSH connection](images/05-ssh-connection.png)
 
 I connected using my **own SSH client (terminal)** with the downloaded `.pem` key
 pair.
@@ -40,7 +40,7 @@ pair.
 
 ### Launch configuration
 
-![Launch configuration](lab1/images/06-challenge-launch.png)
+![Launch configuration](images/06-challenge-launch.png)
 
 The challenge instance was configured with:
 
@@ -52,7 +52,7 @@ The challenge instance was configured with:
 
 ### Security group
 
-![Challenge security group](lab1/images/07-challenge-security-group.png)
+![Challenge security group](images/07-challenge-security-group.png)
 
 The security group contains two inbound rules:
 
@@ -61,7 +61,7 @@ The security group contains two inbound rules:
 
 ### Running instance
 
-![Challenge instance](lab1/images/08-challenge-instance.png)
+![Challenge instance](images/08-challenge-instance.png)
 
 The challenge instance was running with:
 
@@ -72,7 +72,7 @@ The challenge instance was running with:
 
 ### Commands on the instance
 
-![Terminal commands](lab1/images/09-challenge-terminal.png)
+![Terminal commands](images/09-challenge-terminal.png)
 
 The commands used to install and configure Apache and create the static web page were:
 
@@ -104,7 +104,7 @@ The Apache service was active and listening on port `80`, and the HTTP request r
 
 ### Browser test
 
-![Welcome to the EC2 Challenge](lab1/images/10-challenge-browser.png)
+![Welcome to the EC2 Challenge](images/10-challenge-browser.png)
 
 The page was successfully accessed at:
 

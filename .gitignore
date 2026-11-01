@@ -9,6 +9,7 @@ credentials
 .terraform/
 *.tfstate
 *.tfstate.*
+.DS_Store
 
 # Generated archives
 *.zip
