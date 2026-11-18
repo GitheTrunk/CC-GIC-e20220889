@@ -93,11 +93,9 @@ The load balancer initially timed out. I updated its security group and then ver
 
 ![Successful request after troubleshooting](images/10-curl-success.png)
 
-## AI note (optional)
-
 ## Clean up
 
-- [ ] `MyAutoScalingGroup` deleted and its instances terminated.
-- [ ] `AutoScalingLaunchTemplate` deleted.
-- [ ] `MyLoadBalancer` and `LoadBalancerTargetGroup` deleted.
-- [ ] Both security groups deleted.
+- [x] `MyAutoScalingGroup` deleted and its instances terminated.
+- [x] `AutoScalingLaunchTemplate` deleted.
+- [x] `MyLoadBalancer` and `LoadBalancerTargetGroup` deleted.
+- [x] Both security groups deleted.
